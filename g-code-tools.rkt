@@ -502,6 +502,12 @@
 (define g-code-dc%
   (class* object% (dc<%>)
 
+    (define/public (start-alpha)
+      (void))
+
+    (define/public (end-alpha)
+      (void))
+
     (define/public (cache-font-metrics-key)
       (void))
     
